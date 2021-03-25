@@ -37,7 +37,6 @@
     ]
   },
   "devDependencies": {
-    "@netlify/plugin-lighthouse": "^2.0.0",
     "netlify-plugin-cypress": "^2.1.0"
   }
 }
