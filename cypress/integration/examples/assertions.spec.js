@@ -166,7 +166,7 @@ context('Assertions', () => {
     })
 
     it('retries the should callback until assertions pass', () => {
-      cy.get('#random-numberss')
+      cy.get('#random-number')
         .should(($div) => {
           const n = parseFloat($div.text())
 
